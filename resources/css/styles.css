@@ -1,0 +1,34 @@
+html {
+    font-size: calc(.3vw + 12px);
+}
+
+#main-header img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-header .portfolio-item {
+    width: 30%;
+}
+
+#main-header .portfolio-item:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.bg-black {
+    color: #fff;
+    background-color: #000;
+}
+
+.input-group-text {
+    min-width: 6%;
+    justify-content: center;
+}
+
+@media (min-width: 1199px) {
+    .portfolio-item {
+        padding: 4rem !important;
+    }
+}

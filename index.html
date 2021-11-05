@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="resources/css/styles.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>My Portfolio</title>
+  </head>
+
+  <body class="bg-light">
+    <div class="container">
+      <header id="main-header" class="shadow">
+        <div class="row g-0">
+          <div class="col-lg-4 col-md-5 p-0">
+
+            <!-- Profile Image -->
+            <img src="./resources/img/profile.webp" alt="Profile image">
+          </div>
+          <div class="col-lg-8 col-md-7 p-0">
+            <div class="d-flex flex-column">
+
+              <!-- Title -->
+              <div class=" bg-dark text-white p-5">
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                  <h1 class="display-4">Kirill Konovalov</h1>
+                  <div>
+                    <a href="https://www.facebook.com/Cyrill.Konovalov" target="_blank" rel="noreferrer" class="text-white">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://www.linkedin.com/in/kirillkonovalov" target="_blank" rel="noreferrer" class="text-white">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://github.com/auddax" target="_blank" rel="noreferrer" class="text-white">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Description -->
+              <div class="px-5 py-4 bg-black">
+                Junior Front-End Web Developer
+              </div>
+
+              <!-- Navigation Bar -->
+              <div>
+                <div class="d-flex flex-row text-white text-center align-items-stretch">
+                  <div class="portfolio-item p-4 bg-primary border-0" data-toggle="collapse" data-target="#home">
+                    <i class="fas fa-home fa-2x d-block"></i>
+                    <div class="d-none d-sm-block">Home</div>
+                  </div>
+
+                  <div class="portfolio-item p-4 bg-info" data-toggle="collapse" data-target="#education">
+                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                    <div class="d-none d-sm-block">Education</div>
+                  </div>
+
+                  <div class="portfolio-item p-4 bg-warning" data-toggle="collapse" data-target="#portfolio">
+                    <i class="fas fa-folder-open fa-2x d-block"></i>
+                    <div class="d-none d-sm-block">Portfolio</div>
+                  </div>
+
+                  <div class="portfolio-item p-4 bg-success" data-toggle="collapse" data-target="#contact">
+                    <i class="fas fa-envelope fa-2x d-block"></i>
+                    <div class="d-none d-sm-block">Contact</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Home Section -->
+      <div id="home" class="collapse show shadow">
+        <div class="card card-body bg-primary text-white py-5 rounded-0">
+          <h2>Welcome To My Page</h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, consequatur.</p>
+        </div>
+
+        <div class="card card-body py-5 rounded-0">
+          <h3>My Skills</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, vitae.</p>
+          <hr>
+
+          <h4>HTML 5</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 100%;"></div>
+          </div>
+
+          <h4>CSS 3</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 90%;"></div>
+          </div>
+
+          <h4>Bootstrap</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 90%;"></div>
+          </div>
+
+          <h4>JavaScript</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 70%;"></div>
+          </div>
+
+          <h4>React</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 70%;"></div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Education Section -->
+      <div id="education" class="collapse shadow">
+        <div class="card card-body bg-info text-white py-5 rounded-0">
+          <h2>My Education</h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, consequatur.</p>
+        </div>
+
+        <div class="card card-body py-5 rounded-0">
+          <h3>Where Have I Learned?</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, a.</p>
+          <div class="card-deck d-flex">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Company Name</h4>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique molestiae nisi incidunt pariatur explicabo assumenda.</p>
+                <p class="p-2 mb-3 bg-dark text-white">Position: Junior Front-End Developer</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2020-2021</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Company Name</h4>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique molestiae nisi incidunt pariatur explicabo assumenda.</p>
+                <p class="p-2 mb-3 bg-dark text-white">Position: Junior Front-End Developer</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2020-2021</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Company Name</h4>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique molestiae nisi incidunt pariatur explicabo assumenda.</p>
+                <p class="p-2 mb-3 bg-dark text-white">Position: Junior Front-End Developer</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2020-2021</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Section -->
+      <div id="portfolio" class="collapse shadow">
+        <div class="card card-body bg-warning text-white py-5 rounded-0">
+          <h2>My Works</h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, consequatur.</p>
+        </div>
+        
+        <div class="card card-body py-5 rounded-0">
+          <h3>What Have I Build?</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At eos quisquam voluptas! Nulla, dolorem laborum!</p>
+          <div class="row g-0">
+            <div class="col-md-6">
+              <a href="https://chistoelib.ru" data-toggle="lightbox" target="_blank" rel="noreferrer"><img src="./resources/img/chistoelib-scr.jpg" class="img-fluid" alt="Chistoe Library website screenshot"></a>
+            </div>
+            <div class="col-md-6">
+              <a href="http://class.konovalovkirill.ru" data-toggle="lightbox" target="_blank" rel="noreferrer"><img src="./resources/img/class-scr.jpg" class="img-fluid" alt="Time Graphics Class website screenshot"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div id="contact" class="collapse shadow">
+        <div class="card card-body bg-success text-white py-5 rounded-0">
+          <h2>Contact</h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, consequatur.</p>
+        </div>
+
+        <div class="card card-body py-5 rounded-0">
+          <h3>Get In Touch</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, quam.</p>
+
+          <form>
+            <div class="input-group input-group-lg">
+              <span class="input-group-text bg-success text-white">
+                <i class="fas fa-user"></i>
+              </span>
+              <input type="text" class="form-control text-white" placeholder="Name">
+            </div>
+
+            <div class="input-group input-group-lg">
+              <span class="input-group-text bg-success text-white">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <input type="email" class="form-control text-white" placeholder="Email">
+            </div>
+
+            <div class="input-group input-group-lg">
+              <span class="input-group-text bg-success text-white">
+                <i class="fas fa-pencil-alt p-2"></i>
+              </span>
+              <textarea class="form-control text-white" placeholder="Your Message"></textarea>
+            </div>
+          </form>
+          <input type="submit" value="Submit" class="btn btn-success btn-lg btn-sm-block">
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="main-footer" class="p-5 bg-dark text-white shadow">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-outline-light">
+              <i class="fas fa-cloud"></i>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+
+    <script>
+      $('.portfolio-item').click(function() {
+        $('.collapse').collapse('hide');
+      });
+    </script>
+  </body>
+</html>
